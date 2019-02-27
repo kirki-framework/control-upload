@@ -14,3 +14,5 @@ add_action(
         class_alias( 'Kirki\Control\Upload', 'Kirki_Control_Upload' );
     }
 );
+
+class_alias( 'Kirki\Field\Upload', 'Kirki_Field_Upload' );
